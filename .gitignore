@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data files (raw data excluded - too large / not needed for reproducibility)
+data/raw/
+
+# Credentials
+*.json
+!data_dictionary.json
+kaggle.json
+.env
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+
+# Power BI
+*.pbix.tmp
+
+# Output files
+outputs/figures/*.html
+
+# Internal/working documents not needed publicly
+retail_marketing_project.md
+TECHNICAL_DOCUMENTATION.md
+PROJECT_SUMMARY.md
+PowerBI_doc.docx
+PowerBI_doc_Readme.docx
+Capstone2_Retail_and_Marketing_Analytics_Project.ipynb
+notebooks/retail_notebook_01.py
+notebooks/retail_notebook_02.py
+notebooks/retail_notebook_03.py
+notebooks/retail_notebook_04.py
+notebooks/retail_notebook_05.py
+
+# Scripts folder (internal utility scripts)
+scripts/
+
+# Project PDF (internal working document)
+*.pdf
